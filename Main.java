@@ -1,6 +1,9 @@
 class Main {
 
 	public static void main(String[] args) {
+
+		System.out.println("TEST");
+
 		Hotel hotel = new Hotel(3);
 
 		Reservation thor = hotel.requestRoom("thor");
